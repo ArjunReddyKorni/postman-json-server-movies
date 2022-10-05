@@ -1,5 +1,68 @@
 {
-    "flights": [
-        
-    ]
+  "flights": [
+    {
+      "id": 1,
+      "from": "chicago",
+      "to": "NewYork",
+      "depature-date": "22-jun-2022",
+      "flight-options": {
+        "flight no": "DL551 ",
+        "airlines": "Delta",
+        "departure-time": "06:00:00",
+        "arrival-time": "09:16:00 ",
+        "stop overs": "",
+        "is Direct": "TRUE",
+        "departure from": "ORD",
+        "arrival at": "LGA"
+      }
+    },
+    {
+      "id": 2,
+      "from": "chicago",
+      "to": "NewYork",
+      "depature-date": "22-jun-2022",
+      "flight-options": {
+        "flight no": "DL551 ",
+        "airlines": "Delta",
+        "departure-time": "06:00:00",
+        "arrival-time": "09:16:00 ",
+        "stop overs": "",
+        "is Direct": "TRUE",
+        "departure from": "ORD",
+        "arrival at": "LGA"
+      }
+    },
+    {
+      "id": 3,
+      "from": "",
+      "to": "",
+      "depature-date": "",
+      "flight-options": {
+        "flight no": "DL551 ",
+        "airlines": "Delta",
+        "departure-time": "06:00:00",
+        "arrival-time": "09:16:00 ",
+        "stop overs": "",
+        "is Direct": "TRUE",
+        "departure from": "ORD",
+        "arrival at": "LGA"
+      }
+    },
+    {
+      "id": 4,
+      "from": "",
+      "to": "",
+      "depature-date": "",
+      "flight-options": {
+        "flight no": "DL551 ",
+        "airlines": "Delta",
+        "departure-time": "06:00:00",
+        "arrival-time": "09:16:00 ",
+        "stop overs": "",
+        "is Direct": "TRUE",
+        "departure from": "ORD",
+        "arrival at": "LGA"
+      }
+    }
+  ]
 }

@@ -1,10 +1,83 @@
-"HTTP Request		",To update movie for id 514,To update movie for id 500
-"URL		",,
-"METHOD	",,
-"Request Body 		",,
-"Content Type	",,
-Body ,,
-"HTTP Response		",,
-"Status Code		",,
-"Status Message	",,
-Body,,
+"HTTP Request		",To update movie for id 504,To update movie for id 500
+"URL		"http://localhost:3000/movies/504,http://localhost:3000/movies/500,
+"METHOD	"put,put,
+"Request Body 		"{
+        "id": 504,
+        "movieTitle": "Father of the Bride",
+        "yearOfRelease": 2022,
+        "director": "Gary Alazraki",
+        "cast": [
+            {
+                "actorName": "Actor name: Andy Garcia Screen name:  Billy Herrera",
+                "onScreenName": "Callie"
+            },
+            {
+                "actorName": "Actor name: Gloria Estefan Screen name: Ingrid Herrera",
+                "onScreenName": "Grooberson"
+            }
+        ],
+        "rating": 5.9,
+        "genre": "Comedy",
+        "isOnOtt": true,
+        "Ott": "Netflix"
+    },{
+        "id": 500,
+        "movieTitle": "Father of the Bride",
+        "yearOfRelease": 2022,
+        "director": "Gary Alazraki",
+        "cast": [
+            {
+                "actorName": "Actor name: Andy Garcia Screen name:  Billy Herrera",
+                "onScreenName": "Callie"
+            },
+            {
+                "actorName": "Actor name: Gloria Estefan Screen name: Ingrid Herrera",
+                "onScreenName": "Grooberson"
+            }
+        ],
+        "rating": 5.9,
+        "genre": "Comedy",
+        "isOnOtt": true,
+        "Ott": "Netflix"
+    },
+"Content Type	""id":number,
+        "movieTitle": String,
+        "yearOfRelease": number,
+        "director":string,
+        "cast": array object,
+        "rating": floating,
+        "genre": string,
+        "isOnOtt": boolean,
+        "Ott": string,Content Type	""id":number,
+        "movieTitle": String,
+        "yearOfRelease": number,
+        "director":string,
+        "cast": array object,
+        "rating": floating,
+        "genre": string,
+        "isOnOtt": boolean,
+        "Ott": string,
+Body {
+        "id": 504,
+        "movieTitle": "Father of the Bride",
+        "yearOfRelease": 2022,
+        "director": "Gary Alazraki",
+        "cast": [
+            {
+                "actorName": "Actor name: Andy Garcia Screen name:  Billy Herrera",
+                "onScreenName": "Callie"
+            },
+            {
+                "actorName": "Actor name: Gloria Estefan Screen name: Ingrid Herrera",
+                "onScreenName": "Grooberson"
+            }
+        ],
+        "rating": 5.9,
+        "genre": "Comedy",
+        "isOnOtt": true,
+        "Ott": "Netflix"
+    },{},
+"HTTP Response		"PUT /movies/504 200 36.647 ms - 446,PUT /movies/534 404 29.222 ms - 2,
+"Status Code		"200,404,
+"Status Message	"ok,page not found,
+

@@ -5,9 +5,24 @@
 
 ### Response Details
 
-- Status Code --> [Enter Response Status Code here]
-- Status Message --> [Enter Response Status Message here]
+- Status Code --> [200]
+- Status Message --> [OK]
 - Response Data
 ```json
 // Enter Response Data in JSON format here
+[
+    {
+        "id": 1,
+        "title": "json-server",
+        "author": "typicode"
+    }
+],[
+    {
+        "id": 1,
+        "body": "some comment",
+        "postId": 1
+    }
+],{
+    "name": "typicode"
+}
 ```

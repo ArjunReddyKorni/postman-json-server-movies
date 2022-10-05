@@ -1,10 +1,67 @@
 "HTTP Request		",For Adding new movie with id 514,For Adding new movie with id 503
-"URL		",,
-"METHOD	",,
-"Request Body 		",,
-"Content Type	",,
-Body ,,
-"HTTP Response		",,
-"Status Code		",,
-"Status Message	",,
-Body,,
+"URL		"http://localhost:3000/movies,http://localhost:3000/movies,
+"METHOD	"post,post,
+"Request Body 		"{
+    "id": 514,
+    "movieTitle": "Father of the Bride",
+    "yearOfRelease": 2021,
+    "director": "Gary Alazraki",
+    "cast": [
+        {
+            "actorName": "Actor name: Andy Garcia Screen name: Billy Herrera",
+            "onScreenName": "Callie"
+        },
+        {
+            "actorName": "Actor name: Gloria Estefan Screen name: Ingrid Herrera",
+            "onScreenName": "Grooberson"
+        }
+    ],
+    "rating": 5.9,
+    "genre": "Adventure",
+    "isOnOtt": true,
+    "Ott": "Netflix"
+},{
+    "id": 514,
+    "movieTitle": "Father of the Bride",
+    "yearOfRelease": 2021,
+    "director": "Gary Alazraki",
+    "cast": [
+        {
+            "actorName": "Actor name: Andy Garcia Screen name: Billy Herrera",
+            "onScreenName": "Callie"
+        },
+        {
+            "actorName": "Actor name: Gloria Estefan Screen name: Ingrid Herrera",
+            "onScreenName": "Grooberson"
+        }
+    ],
+    "rating": 5.9,
+    "genre": "Adventure",
+    "isOnOtt": true,
+    "Ott": "Netflix"
+},
+"Content Type	"object,object,
+Body {
+    "id": 514,
+    "movieTitle": "Father of the Bride",
+    "yearOfRelease": 2021,
+    "director": "Gary Alazraki",
+    "cast": [
+        {
+            "actorName": "Actor name: Andy Garcia Screen name: Billy Herrera",
+            "onScreenName": "Callie"
+        },
+        {
+            "actorName": "Actor name: Gloria Estefan Screen name: Ingrid Herrera",
+            "onScreenName": "Grooberson"
+        }
+    ],
+    "rating": 5.9,
+    "genre": "Adventure",
+    "isOnOtt": true,
+    "Ott": "Netflix"
+},
+"HTTP Response		"success,Error: Insert failed, duplicate id,
+"Status Code		"201,500,
+"Status Message	"success,Error: Insert failed, duplicate id,
+
