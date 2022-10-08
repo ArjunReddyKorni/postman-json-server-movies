@@ -1,7 +1,7 @@
 ### Request Details
 
-- URL --> [Request URL to Fetch ALL Posts Need to be Provided here]
-- Method --> [Request Method to Fetch ALL Posts Need to be Provided here]
+- URL --> [http://localhost:3000/db.json]
+- Method --> [GET]
 
 ### Response Details
 

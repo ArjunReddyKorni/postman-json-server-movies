@@ -18,9 +18,9 @@
     },
     {
       "id": 2,
-      "from": "chicago",
-      "to": "NewYork",
-      "depature-date": "22-jun-2022",
+      "from": "",
+      "to": "",
+      "depature-date": "",
       "flight-options": {
         "flight no": "DL551 ",
         "airlines": "Delta",
